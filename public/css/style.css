@@ -1,0 +1,41 @@
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+body {
+  background: linear-gradient(#9de4eb,#6a9ae1,#5048da);
+  margin: 0;
+  width: 100%;
+}
+.tit{
+  color: black;
+}
+.center{
+  text-align: center;
+  font-family: Microsoft JhengHei;
+}
+.frame{
+  margin: 10px;
+}
+
+@media (min-width: 1200px) {
+  img{
+    width: 15vw;
+    height: 45vh;
+  }
+}
+@media (max-width: 1200px) {
+  img{
+    width: 30vw;
+    height: 45vh;
+  }
+}
+
+@media (max-width: 768px) {
+  img{
+    width: 60vw;
+    height: 60vh;
+  }
+}

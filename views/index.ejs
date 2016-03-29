@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Heroku</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+  <h1 class="center"><%= title %></h1>
+  <div class="container col-md-12">
+    <!-- <div class="container-fluid"> -->
+      <div class"row center">
+        <% for(var i=0; i<pic.length; i++) { %>
+          <div class="col-md-3 center">
+            <h1 class="tit center"><%= name[i] %></h1>
+            <img class="frame" src="assets/images/<%= pic[i]%>" >
+          </div>
+        <% } %>
+      </div>
+    <!-- </div> -->
+
+  </div>
+
+  <script src="assets/js/jquery-1.8.2.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
